@@ -1,0 +1,22 @@
+# Exclude Data Folders & Raw Datasets
+data/
+Data/
+*.pkl
+*.csv
+!final_submission_xgboost.csv
+
+# Python Virtual Environments & Cache
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Power BI Auto-Save & Temporary Files
+*.tmp
+*.lock
+~*
+
+# IDE & System Files
+.vscode/
+.DS_Store
+Thumbs.db
